@@ -1,0 +1,2 @@
+run = "npx ts-node 2015/day01.ts"
+language = "typescript" 
