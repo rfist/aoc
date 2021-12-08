@@ -1,36 +1,38 @@
 {
-    "name": "advent-of-code",
-    "version": "1.0.0",
-    "description": "Collection of the AOC solutions",
-    "main": "index.js",
-    "scripts": {
-        "ts-node": "ts-node",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/rfist/aoc.git"
-    },
-    "author": "rfist",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/rfist/aoc/issues"
-    },
-    "homepage": "https://github.com/rfist/aoc#readme",
-    "devDependencies": {
-        "@types/jest": "^27.0.1",
-        "@types/node": "^16.7.1",
-        "@typescript-eslint/eslint-plugin": "^4.29.2",
-        "@typescript-eslint/parser": "^4.29.2",
-        "eslint": "^7.32.0",
-        "jest": "^27.0.6",
-        "ts-jest": "^27.0.5",
-        "ts-node": "^10.2.1",
-        "typescript": "^4.3.5"
-    },
-    "dependencies": {
-        "@types/ramda": "^0.27.44",
-        "chalk": "^4.1.2",
-        "ramda": "^0.27.1"
-    }
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "Collection of the AOC solutions",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfist/aoc.git"
+  },
+  "author": "rfist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfist/aoc/issues"
+  },
+  "homepage": "https://github.com/rfist/aoc#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint-config-prettier": "6.14.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@types/ramda": "^0.27.44",
+    "chalk": "^4.1.2",
+    "ramda": "^0.27.1"
+  }
 }
