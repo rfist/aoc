@@ -9,9 +9,9 @@ export class Solution {
   }
 
   public processPart1(): number {
-    const inputCorse =  R.pipe(R.split('\n'),R.map(R.split(' ')))(this.input);
+    const inputCourse =  R.pipe(R.split('\n'),R.map(R.split(' ')))(this.input);
     const coord = {x:0, y:0};
-    inputCorse.forEach(([direction, distance]) => {
+    inputCourse.forEach(([direction, distance]) => {
       switch (direction){
         case 'forward':
           coord.x += +distance;
@@ -28,9 +28,9 @@ export class Solution {
   }
 
   public processPart2(): number {
-    const inputCorse =  R.pipe(R.split('\n'),R.map(R.split(' ')))(this.input);
+    const inputCourse =  R.pipe(R.split('\n'),R.map(R.split(' ')))(this.input);
     const coord = {x:0,y:0, aim:0};
-    inputCorse.forEach(([direction, value]) => {
+    inputCourse.forEach(([direction, value]) => {
       switch (direction){
         case 'forward':
           coord.x += +value;
